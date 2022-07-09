@@ -8,6 +8,6 @@ const app = express();
 app.use("/api", apiRoute);
 app.use(express.static(path.join(__dirname, "public")));
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log("Servidor rodando na porta: ", PORT);
 });
