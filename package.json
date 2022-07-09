@@ -4,6 +4,7 @@
   "description": "Mural de avisos criado no curso de desenvolvimento full stack e integra o front com o beck",
   "main": "index.js",
   "scripts": {
+    "start": "node index"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
